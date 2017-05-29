@@ -1,0 +1,38 @@
+div.header {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+div.navbar {
+  justify-content: flex-end;
+}
+
+.navbar, .logo {
+  display: inline-flex;
+  font-family: Verdana;
+  font-style: 14px;
+  font-weight: bold;
+  align-items: center;
+  flex-grow: 1;
+}
+
+div.navbar span {
+  margin: 10px;
+}
+
+a {
+  color: black;
+}
+
+div.spacing {
+  margin-right: 40px;
+}
+
+.logo img {
+  margin-left: 25px;
+}
+
+.logo p {
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
