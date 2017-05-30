@@ -2,6 +2,16 @@ body {
   margin: 0;
 }
 
+a {
+  color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 div.header {
   display: flex;
   border-bottom: 1px solid black;
@@ -29,10 +39,6 @@ div.navbar span {
   margin: 10px;
 }
 
-a {
-  color: black;
-}
-
 div.spacing {
   margin-right: 40px;
 }
@@ -55,11 +61,25 @@ div.spacing {
   position: relative;
   top: 70px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
 }
 
 .large, .medium {
   display: flex;
+}
+
+.image-div {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+
+.image-div span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 #large {
@@ -78,4 +98,26 @@ div.spacing {
 
 #large, #medium, #small {
   margin-top: 40px;
+}
+
+#mother span {
+  font-size: 40px;
+  text-align: left;
+}
+
+#mother {
+  background-image: url(../images/mainStory.png);
+  justify-content: flex-start;
+}
+
+#earth {
+  background-image: url(../images/fallSeason.png);
+}
+
+#research {
+  background-image: url(../images/hipster.png);
+}
+
+#cats {
+  background-image: url(../images/cat.png);
 }
