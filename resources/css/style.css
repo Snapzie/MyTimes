@@ -104,6 +104,27 @@ div.spacing {
   height: 250px;
 }
 
+.centered-header {
+  margin-bottom: 41px;
+}
+
+.news span {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  width: 200px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 #mother span {
   font-size: 40px;
   text-align: left;
